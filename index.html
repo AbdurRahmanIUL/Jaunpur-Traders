@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaunpur Traders | Premium Tobacco Supplier in Jaunpur & Alamganj</title>
+    <meta name="description" content="Trusted wholesale and retail tobacco supplier in Jaunpur, Uttar Pradesh. Jaunpur Traders offers premium quality loose and packaged tobacco. 5-star rated service.">
+    <meta name="keywords" content="Tobacco Supplier in Jaunpur, Jaunpur Traders Alamganj, Wholesale Tobacco in Uttar Pradesh, Tobacco Wholesale India, Syed Ali Pur Tobacco">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Jaunpur Traders - Premium Tobacco Wholesale">
+    <meta property="og:description" content="Reliable wholesale and retail supply in Jaunpur. Visit us at Badi Masjid Road.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1626202378370-9856e4311b0e?q=80&w=1200&auto=format&fit=crop">
+    <meta property="og:type" content="website">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Schema.org Data -->
+    <script type="application/ld+json" id="json-ld-data"></script>
+</head>
+<body class="text-gray-800 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-nav transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="text-2xl font-bold font-serif text-white tracking-wide">
+                        JAUNPUR <span class="text-gold-gradient">TRADERS</span>
+                    </a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="text-gray-300 hover:text-white transition-colors px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="#about" class="text-gray-300 hover:text-white transition-colors px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="#products" class="text-gray-300 hover:text-white transition-colors px-3 py-2 rounded-md text-sm font-medium">Products</a>
+                        <a href="#reviews" class="text-gray-300 hover:text-white transition-colors px-3 py-2 rounded-md text-sm font-medium">Reviews</a>
+                        <a href="#contact" class="btn-gold px-5 py-2 rounded-full font-bold text-sm shadow-lg">Contact Us</a>
+                    </div>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="-mr-2 flex md:hidden">
+                    <button type="button" id="mobile-menu-btn" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-[#0f392b] border-t border-gray-700" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                <a href="#about" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
+                <a href="#products" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Products</a>
+                <a href="#reviews" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Reviews</a>
+                <a href="#contact" class="text-gold-gradient block px-3 py-2 rounded-md text-base font-bold">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1626202378370-9856e4311b0e?q=80&w=1920&auto=format&fit=crop" alt="Tobacco leaves background" class="w-full h-full object-cover">
+            <div class="hero-overlay absolute inset-0"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left pt-20">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-2/3 reveal-up">
+                    <div class="inline-flex items-center px-4 py-2 rounded-full border border-[#d4af37] bg-[#0f392b]/50 backdrop-blur-sm mb-6">
+                        <span class="flex h-2 w-2 rounded-full bg-[#d4af37] mr-2"></span>
+                        <span class="text-sm font-medium text-gray-200">Jaunpur's #1 Wholesale Supplier</span>
+                    </div>
+                    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
+                        Trusted <span class="text-gold-gradient">Tobacco Supplier</span> <br>in Jaunpur
+                    </h1>
+                    <p class="text-xl text-gray-300 mb-8 max-w-2xl font-light">
+                        Premium Quality | Wholesale & Retail | Trusted by Local Businesses.<br>
+                        Serving Alamganj and surrounding areas with integrity.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="tel:+919876543210" class="btn-gold px-8 py-4 rounded-md font-bold text-lg flex items-center justify-center gap-2 shadow-xl">
+                            <i data-lucide="phone" class="w-5 h-5"></i> Call Now
+                        </a>
+                        <a href="#contact" class="px-8 py-4 rounded-md font-bold text-lg border border-white text-white hover:bg-white hover:text-[#0f392b] transition-all flex items-center justify-center gap-2">
+                            <i data-lucide="map-pin" class="w-5 h-5"></i> Get Directions
+                        </a>
+                    </div>
+                    
+                    <div class="mt-10 flex items-center gap-4">
+                        <div class="flex -space-x-2">
+                            <div class="w-10 h-10 rounded-full bg-gray-200 border-2 border-[#0f392b] flex items-center justify-center text-xs font-bold text-[#0f392b]">A</div>
+                            <div class="w-10 h-10 rounded-full bg-gray-300 border-2 border-[#0f392b] flex items-center justify-center text-xs font-bold text-[#0f392b]">R</div>
+                            <div class="w-10 h-10 rounded-full bg-gray-400 border-2 border-[#0f392b] flex items-center justify-center text-xs font-bold text-[#0f392b]">S</div>
+                        </div>
+                        <div class="text-white">
+                            <div class="flex text-[#d4af37]">
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            </div>
+                            <p class="text-sm text-gray-300">5.0 Star Rating (4 Reviews)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="relative reveal-up">
+                    <div class="absolute -top-4 -left-4 w-24 h-24 border-t-4 border-l-4 border-[#d4af37]"></div>
+                    <img src="https://images.unsplash.com/photo-1598516886617-64906f236081?q=80&w=800&auto=format&fit=crop" alt="Quality Tobacco Inspection" class="rounded-lg shadow-2xl w-full h-96 object-cover grayscale hover:grayscale-0 transition-all duration-500">
+                    <div class="absolute -bottom-4 -right-4 w-24 h-24 border-b-4 border-r-4 border-[#d4af37]"></div>
+                </div>
+                <div class="reveal-up">
+                    <h4 class="text-[#d4af37] font-bold tracking-widest uppercase mb-2 text-sm">Our Story</h4>
+                    <h2 class="text-4xl font-serif font-bold text-[#0f392b] mb-6">A Legacy of Quality & Trust in Jaunpur</h2>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        At <strong>Jaunpur Traders</strong>, we understand that quality is the backbone of the tobacco trade. Situated in the heart of Alamganj, we have established ourselves as the premier destination for both wholesale and retail tobacco needs.
+                    </p>
+                    <p class="text-gray-600 mb-8 leading-relaxed">
+                        Our commitment to fair pricing and consistent supply has earned us the trust of local businesses and individuals alike. Whether you are looking for loose leaf varieties or premium packaged goods, we guarantee the finest stock in Uttar Pradesh.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="border-l-4 border-[#0f392b] pl-4">
+                            <h3 class="text-2xl font-bold text-[#0f392b]">10+</h3>
+                            <p class="text-sm text-gray-500">Years of Service</p>
+                        </div>
+                        <div class="border-l-4 border-[#d4af37] pl-4">
+                            <h3 class="text-2xl font-bold text-[#0f392b]">100%</h3>
+                            <p class="text-sm text-gray-500">Premium Quality</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-16 bg-[#f8f9fa]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal-up">
+                <h2 class="text-3xl font-serif font-bold text-[#0f392b]">Why Choose Jaunpur Traders?</h2>
+                <div class="w-24 h-1 bg-[#d4af37] mx-auto mt-4"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-lg transition-all reveal-up">
+                    <div class="w-14 h-14 bg-[#0f392b]/10 rounded-full flex items-center justify-center mb-6">
+                        <i data-lucide="shield-check" class="w-8 h-8 text-[#0f392b]"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Trusted Local Business</h3>
+                    <p class="text-gray-600 text-sm">Deeply rooted in Jaunpur with a reputation for honesty and integrity.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-lg transition-all reveal-up" style="transition-delay: 100ms;">
+                    <div class="w-14 h-14 bg-[#d4af37]/20 rounded-full flex items-center justify-center mb-6">
+                        <i data-lucide="award" class="w-8 h-8 text-[#b4912f]"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Premium Quality</h3>
+                    <p class="text-gray-600 text-sm">We source only the finest tobacco products, ensuring satisfaction.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-lg transition-all reveal-up" style="transition-delay: 200ms;">
+                    <div class="w-14 h-14 bg-[#0f392b]/10 rounded-full flex items-center justify-center mb-6">
+                        <i data-lucide="indian-rupee" class="w-8 h-8 text-[#0f392b]"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Wholesale Pricing</h3>
+                    <p class="text-gray-600 text-sm">Competitive rates for bulk buyers and fair prices for retail customers.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-lg transition-all reveal-up" style="transition-delay: 300ms;">
+                    <div class="w-14 h-14 bg-[#d4af37]/20 rounded-full flex items-center justify-center mb-6">
+                        <i data-lucide="clock" class="w-8 h-8 text-[#b4912f]"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Timely Supply</h3>
+                    <p class="text-gray-600 text-sm">Reliable stock availability and prompt service during working hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-20 bg-[#0f392b] text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal-up">
+                <span class="text-[#d4af37] font-bold tracking-widest uppercase">Our Inventory</span>
+                <h2 class="text-3xl md:text-4xl font-serif font-bold mt-2">Premium Tobacco Selection</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="product-card bg-[#144738] rounded-xl overflow-hidden reveal-up">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1541544181051-e466902cd8e2?q=80&w=600&auto=format&fit=crop" alt="Loose Tobacco" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Loose Tobacco</h3>
+                        <p class="text-gray-400 text-sm mb-6">High-grade loose leaf varieties available by weight. Perfect for custom blends.</p>
+                        <button onclick="openWhatsApp('Loose Tobacco Inquiry')" class="w-full border border-[#d4af37] text-[#d4af37] py-2 rounded hover:bg-[#d4af37] hover:text-[#0f392b] transition-colors font-medium">Inquire Now</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card bg-[#144738] rounded-xl overflow-hidden reveal-up" style="transition-delay: 100ms;">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1612534572230-019d3f18e9a1?q=80&w=600&auto=format&fit=crop" alt="Packaged Tobacco" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Packaged Products</h3>
+                        <p class="text-gray-400 text-sm mb-6">Branded and locally sourced packaged tobacco products for retail sale.</p>
+                        <button onclick="openWhatsApp('Packaged Tobacco Inquiry')" class="w-full border border-[#d4af37] text-[#d4af37] py-2 rounded hover:bg-[#d4af37] hover:text-[#0f392b] transition-colors font-medium">Inquire Now</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card bg-[#144738] rounded-xl overflow-hidden reveal-up" style="transition-delay: 200ms;">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1595304627447-068340d853b0?q=80&w=600&auto=format&fit=crop" alt="Wholesale Supply" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Bulk Wholesale</h3>
+                        <p class="text-gray-400 text-sm mb-6">Large volume supply for retailers and businesses at unbeatable rates.</p>
+                        <button onclick="openWhatsApp('Wholesale Supply Inquiry')" class="w-full border border-[#d4af37] text-[#d4af37] py-2 rounded hover:bg-[#d4af37] hover:text-[#0f392b] transition-colors font-medium">Inquire Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal-up">
+                <h2 class="text-3xl font-serif font-bold text-[#0f392b]">What Our Customers Say</h2>
+                <div class="flex justify-center items-center mt-4 gap-2">
+                    <span class="text-4xl font-bold text-gray-900">5.0</span>
+                    <div class="flex text-[#d4af37]">
+                        <i data-lucide="star" class="w-6 h-6 fill-current"></i>
+                        <i data-lucide="star" class="w-6 h-6 fill-current"></i>
+                        <i data-lucide="star" class="w-6 h-6 fill-current"></i>
+                        <i data-lucide="star" class="w-6 h-6 fill-current"></i>
+                        <i data-lucide="star" class="w-6 h-6 fill-current"></i>
+                    </div>
+                </div>
+                <p class="text-gray-500 mt-2">Based on 4 Verified Reviews</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Review 1 -->
+                <div class="bg-gray-50 p-8 rounded-xl border border-gray-100 reveal-up">
+                    <div class="flex text-[#d4af37] mb-4">
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6">"Best wholesaler in Alamganj area. The quality is consistent and the rates are very competitive. Highly recommended for retailers."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-[#0f392b] rounded-full flex items-center justify-center text-white font-bold">R</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Rahul Verma</h4>
+                            <p class="text-xs text-gray-500">Retail Shop Owner</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-gray-50 p-8 rounded-xl border border-gray-100 reveal-up" style="transition-delay: 100ms;">
+                    <div class="flex text-[#d4af37] mb-4">
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6">"Very professional behavior. They always deliver on time. Finding a trustworthy supplier in Jaunpur was hard until I found them."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-[#0f392b] rounded-full flex items-center justify-center text-white font-bold">A</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Amit Singh</h4>
+                            <p class="text-xs text-gray-500">Local Customer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-[#f8f9fa]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Contact Info & Map -->
+                <div class="reveal-up">
+                    <span class="text-[#d4af37] font-bold tracking-widest uppercase text-sm">Get In Touch</span>
+                    <h2 class="text-3xl font-serif font-bold text-[#0f392b] mb-6">Visit Our Store</h2>
+                    <p class="text-gray-600 mb-8">We are conveniently located on Badi Masjid Road. Drop by for a visit or contact us for orders.</p>
+
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-start gap-4">
+                            <div class="bg-white p-3 rounded-full shadow-sm">
+                                <i data-lucide="map-pin" class="w-6 h-6 text-[#d4af37]"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">Address</h4>
+                                <p class="text-gray-600">Badi Masjid Road, Syed Ali Pur, Alamganj,<br>Jamin Abdul Quadir, Uttar Pradesh – 222001</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="bg-white p-3 rounded-full shadow-sm">
+                                <i data-lucide="phone" class="w-6 h-6 text-[#d4af37]"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">Phone</h4>
+                                <p class="text-gray-600">+91 98765 43210</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="bg-white p-3 rounded-full shadow-sm">
+                                <i data-lucide="clock" class="w-6 h-6 text-[#d4af37]"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">Working Hours</h4>
+                                <p class="text-gray-600">Mon - Sat: 9:00 AM – 8:00 PM<br><span class="text-red-500 text-sm">Sunday Closed</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map -->
+                    <div class="w-full h-64 bg-gray-200 rounded-lg shadow-md overflow-hidden map-frame">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.6720760431364!2d82.6846!3d25.7489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDQ0JzU2LjAiTiA4MsKwNDEnMDQuNiJF!5e0!3m2!1sen!2sin!4v1631234567890!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-white p-8 md:p-10 rounded-2xl shadow-xl reveal-up">
+                    <h3 class="text-2xl font-bold text-[#0f392b] mb-6">Send an Inquiry</h3>
+                    <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                        <div class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                                <input type="text" id="name" name="name" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#d4af37] focus:border-transparent outline-none transition-all" placeholder="Your Name">
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#d4af37] focus:border-transparent outline-none transition-all" placeholder="Your Mobile Number">
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                                <textarea id="message" name="message" rows="4" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#d4af37] focus:border-transparent outline-none transition-all" placeholder="I am interested in wholesale..."></textarea>
+                            </div>
+                            <button type="submit" class="w-full btn-gold py-4 rounded-lg font-bold text-[#0f392b] text-lg shadow-lg">Send Message</button>
+                        </div>
+                        <p id="formStatus" class="mt-4 text-center text-green-600 hidden font-medium">Message sent successfully! We will contact you soon.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#051b14] text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12 border-b border-gray-800 pb-12">
+                <div>
+                    <h3 class="text-2xl font-serif font-bold mb-4">JAUNPUR <span class="text-[#d4af37]">TRADERS</span></h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Your trusted partner for premium quality tobacco supply in Jaunpur and Alamganj. committed to quality and fair pricing.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4 text-[#d4af37]">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li><a href="#home" class="hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#products" class="hover:text-white transition-colors">Products</a></li>
+                        <li><a href="#contact" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4 text-[#d4af37]">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="map-pin" class="w-4 h-4 mt-1 flex-shrink-0"></i>
+                            <span>Badi Masjid Road, Syed Ali Pur, Alamganj, Jaunpur</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="phone" class="w-4 h-4 flex-shrink-0"></i>
+                            <span>+91 98765 43210</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4 text-[#d4af37]">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#d4af37] hover:text-[#051b14] transition-all">
+                            <i data-lucide="facebook" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#d4af37] hover:text-[#051b14] transition-all">
+                            <i data-lucide="instagram" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#d4af37] hover:text-[#051b14] transition-all">
+                            <i data-lucide="message-circle" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-gray-500 text-sm flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2026 Jaunpur Traders. All rights reserved.</p>
+                <p class="mt-2 md:mt-0">Premium Business Design</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/919876543210" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <i data-lucide="message-circle" class="w-8 h-8"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>

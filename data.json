@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Loose Tobacco",
+      "description": "Premium grade loose leaf tobacco available in bulk quantities.",
+      "image": "https://images.unsplash.com/photo-1541544181051-e466902cd8e2?q=80&w=600"
+    },
+    {
+      "id": 2,
+      "name": "Packaged Tobacco",
+      "description": "Sealed and branded tobacco packets for retail distribution.",
+      "image": "https://images.unsplash.com/photo-1612534572230-019d3f18e9a1?q=80&w=600"
+    },
+    {
+      "id": 3,
+      "name": "Wholesale Supply",
+      "description": "Bulk orders for factories and large-scale retailers.",
+      "image": "https://images.unsplash.com/photo-1595304627447-068340d853b0?q=80&w=600"
+    }
+  ]
+}
